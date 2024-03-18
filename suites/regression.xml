@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+    <test name="Store service tests">
+        <classes>
+            <class name="com.petstore.qa.StoreIntegrationTest"/>
+            <class name="com.petstore.qa.InventoryTest"/>
+            <class name="com.petstore.qa.StoreIntegrationChainTest"/>
+        </classes>
+    </test>
+</suite>
